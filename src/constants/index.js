@@ -1,0 +1,9 @@
+import {
+  EXCLUDED_DIRECTORIES,
+  EXCLUDED_FILES,
+} from './project';
+
+export {
+  EXCLUDED_DIRECTORIES,
+  EXCLUDED_FILES,
+};

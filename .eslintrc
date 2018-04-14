@@ -1,0 +1,23 @@
+{
+  "extends": "eslint-config-airbnb",
+  "plugins": [
+    "babel"
+  ],
+  "parser": "babel-eslint",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  },
+  "rules": {
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "linebreak-style": 0,
+    "react/prefer-stateless-function": 0,
+    "import/prefer-default-export": 0,
+    "react/no-typos": 0,
+    "babel/semi": 1
+  }
+}

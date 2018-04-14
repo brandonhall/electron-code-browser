@@ -1,0 +1,29 @@
+{
+  "env": {
+    "development": {
+      "application/javascript": {
+        "presets": [
+          ["env", { "targets": { "electron": "1.8.4" } }],
+          "stage-1",
+          "react"
+        ],
+        "plugins": [
+          ["module-resolver", { "root": ["./src"] }],
+          "react-hot-loader/babel"
+        ],
+        "sourceMaps": "inline"
+      }
+    },
+    "production": {
+      "application/javascript": {
+        "presets": [
+          ["env", { "targets": { "electron": "1.8.4" } }],
+          "stage-1",
+          "react"
+        ],
+        "plugins": [],
+        "sourceMaps": "none"
+      }
+    }
+  }
+}
