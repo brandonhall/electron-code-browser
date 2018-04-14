@@ -10,6 +10,10 @@ Quickly thrown together to take [Electron](https://electronjs.org) for a spin. T
 * Local storage for selected folder and open files
 * Supports `CSS`, `SCSS`, `LESS`, `JSX`, `Markdown`, `HTML`, `JSON`, and `JS`.
 
+### Screenshot
+
+![image](https://user-images.githubusercontent.com/1144477/38764185-0c1c7ea8-3f78-11e8-8ff9-2fa5b7daa615.png)
+
 ### Usage
 
 1. Install `electron-forge`
